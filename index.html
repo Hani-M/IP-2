@@ -36,6 +36,24 @@
                         <label for="monthDay" class="labels">Day of month</label><br>
                         <input type="number" placeholder="Enter the day" class="form-control" id="monthday" required>
                 </div>
+                <div class="radio-button">
+                    <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                    <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            </div>
+            <div>
+                <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Submit</button></a>
+                <h4 id="result"></h4>
+            </div>
+            <div id="error"></div>
+            <div>
+                <h5>KEY:</h5>
+                <p>Follow the following instruction;</p>
+                <ol>
+                    <li>Year of birth (1989 has = 89)</li>
+                    <li>Century of birth(1989 has = 19) </li>
+                </ol>
+            </div>     
+        </form>
     
 </body>
 </html>
