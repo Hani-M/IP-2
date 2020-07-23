@@ -12,3 +12,9 @@ body{
     margin: auto;
     overflow: hidden;
 }
+#mainheader{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
