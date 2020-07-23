@@ -39,3 +39,10 @@ body{
     font-family: Arial, Helvetica, serif;
     font-weight: 500;
 }
+#mainfooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
