@@ -14,3 +14,9 @@ function calculateDay(){
     console.log(dayOfWeek); //Test the calculateDay function
     return (Math.floor(dayOfWeek));
 }
+//main caller func
+ function checkDayOfWeek(){
+     day = calculateDay();
+      checkGender();
+      console.log("The function runs");//Test chackDayOfWeek function
+}
