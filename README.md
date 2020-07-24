@@ -15,5 +15,4 @@ email: hani@saifproperties.com
 number: 0725137581
 
 ### license:
-[License](https://raw.githubusercontent.com/Hani-M/Independent-project-2/master/LICENSE)
-
+[License](https://github.com/Hani-M/IP-2/community/license/new?branch=master&template=mit)
